@@ -2,7 +2,7 @@
 > <details>
 >   <summary>Contents</summary>
 >
->> | [About]() | [Technologies Used](https://github.com/mmmoore1313/Mono-repo-practice-React#technologies-used) |
+>> | [About](https://github.com/mmmoore1313/Mono-repo-practice-React#about) | [Technologies Used](https://github.com/mmmoore1313/Mono-repo-practice-React#technologies-used) |
 >> |--|--|
 >> | [Steps](https://github.com/mmmoore1313/Mono-repo-practice-React#steps) | [Links](https://github.com/mmmoore1313/Mono-repo-practice-React#links) |
 >
@@ -10,7 +10,7 @@
 >
 > ## About
 >> <details>
->>  <summary></summary>
+>>  <summary>This is a practice repo following the tutorial at <a href="https://monorepo.guide/getting-started">monorepo.guide</a>. The goal is to comfortably establish a process and understanding for the use of monorepos for development.</summary>
 >>
 >>>
 >> ###### [(Return to top)](https://github.com/mmmoore1313/Mono-repo-practice-React#mono-repo-practice-react)
