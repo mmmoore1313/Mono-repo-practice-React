@@ -103,6 +103,7 @@
 >>>>>  <summary>6.1.1- Create a <code>packages/button</code> folder in the root directory</summary>
 >>>>>
 >>>>>> ```  
+>>>>>> mkdir packages
 >>>>>> mkdir packages/button
 >>>>>> ``` 
 >>>>>
@@ -120,6 +121,10 @@
 >>>>>
 >>>>>> ```  
 >>>>>> npm init
+>>>>>> ```  
+>>>>>> - or -  
+>>>>>> ``` 
+>>>>>> touch package.json
 >>>>>> ``` 
 >>>>>
 >>>>> </details>
