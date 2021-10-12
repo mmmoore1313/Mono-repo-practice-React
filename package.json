@@ -1,7 +1,6 @@
 {
   "name": "monorepoguide-practice-react",
   "version": "1.0.0",
-  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -22,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/mmmoore1313/Mono-repo-practice-React/issues"
   },
-  "homepage": "https://github.com/mmmoore1313/Mono-repo-practice-React#readme"
+  "homepage": "https://github.com/mmmoore1313/Mono-repo-practice-React#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5"
+  }
 }
