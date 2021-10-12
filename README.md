@@ -30,7 +30,7 @@
 >>>
 >>> </details>
 >>> <details>
->>>  <summary>2. Add a <code>.gitignore</code></summary>
+>>>  <summary>2. Add a <code>.gitignore</code> to your root directory</summary>
 >>>
 >>>> 2.1- `touch .gitignore`  
 >>>> 2.2- In the `.gitignore`, add:  
