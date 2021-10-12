@@ -24,15 +24,15 @@
 >>> <details>
 >>>  <summary>1. Initialize your repository</summary>
 >>>
->>>> 1.1- `mkdir <repo name>`  
->>>> 1.2- `cd <repo name>`  
->>>> 1.3- `git init`  
+>>>> 1.1- ```mkdir <repo name>```  
+>>>> 1.2- ```cd <repo name>```  
+>>>> 1.3- ```git init```  
 >>>
 >>> </details>
 >>> <details>
 >>>  <summary>2. Add a <code>.gitignore</code> to your root directory</summary>
 >>>
->>>> 2.1- `touch .gitignore`  
+>>>> 2.1- ```touch .gitignore```  
 >>>> <details>
 >>>>  <summary>2.2- In the <code>.gitignore</code>, add:</summary>
 >>>>
@@ -48,7 +48,7 @@
 >>> <details>
 >>>  <summary>3. Create a <code>package.json</code> file to your root directory</summary>
 >>>
->>>> 3.1- Run `npm init`  
+>>>> 3.1- Run ```npm init```  
 >>>> 3.2- Add the following:  
 >>>>> ```  
 >>>>> {
@@ -79,7 +79,7 @@
 >>> <details>
 >>>  <summary>5. Create a <code>bable.config.js</code> at the root level</summary>
 >>>
->>>> 5.1- `touch babel.config.js`  
+>>>> 5.1- ```touch babel.config.js```  
 >>>> 5.2- Add to the `babel.config.js`:
 >>>>> ```  
 >>>>> module.exports = {
@@ -168,12 +168,12 @@
 >>>>>> <details>
 >>>>>>  <summary>6.1.8.1- Switch to the <code>src</code> directory</summary>
 >>>>>>
->>>>>>> `cd src`
+>>>>>>> ```cd src```
 >>>>>> </details>
 >>>>>> <details>
 >>>>>>  <summary>6.1.8.2- Create the <code>index.js</code></summary>
 >>>>>>
->>>>>>> `touch index.js`
+>>>>>>> ```touch index.js```
 >>>>>> </details>
 >>>>>> <details>
 >>>>>>  <summary>6.1.8.3- Fill out the <code>index.js</code> file</summary>
