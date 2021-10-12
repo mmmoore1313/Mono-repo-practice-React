@@ -1,5 +1,8 @@
 {
-  "name": "@monorepo-starter/button",  
-  "version": "1.0.0",  
-  "description": "A very simple React button within a monorepo"  
+  "name": "@monorepo-starter/button",
+  "version": "1.0.0",
+  "description": "A very simple React button within a monorepo",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
