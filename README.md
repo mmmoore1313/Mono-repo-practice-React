@@ -171,7 +171,7 @@
 >>>>>>> `touch index.js`
 >>>>>> </details>
 >>>>>> <details>
->>>>>>  <summary>Fill out the <code>index.js</code> file</summary>
+>>>>>>  <summary>6.1.8.3- Fill out the <code>index.js</code> file</summary>
 >>>>>>
 >>>>>>> ``` 
 >>>>>>> import React from "react";
