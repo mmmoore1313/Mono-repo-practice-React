@@ -108,7 +108,7 @@
 >>>>>
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>6.1.2- Switch into the <code>packages/button</code> folder
+>>>>>  <summary>6.1.2- Switch into the <code>packages/button</code> folder</summary>
 >>>>>  
 >>>>>> ``` 
 >>>>>> cd packages/button
