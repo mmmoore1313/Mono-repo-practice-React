@@ -94,7 +94,7 @@
 >>>
 >>> </details>
 >>> <details>
->>>  <summary>6. Tutorial Specific</summary>
+>>>  <summary>6. <a href="https://monorepo.guide/getting-started">Tutorial</a> Specific</summary>
 >>>
 >>>> <details>
 >>>>  <summary>6.1- Add a starter button</summary>
