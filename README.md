@@ -99,31 +99,50 @@
 >>>> <details>
 >>>>  <summary>6.1- Add a starter button</summary>
 >>>>
->>>>> 6.1.1- Create a `packages/button` folder in the root directory  
+>>>>> <details>
+>>>>>  <summary>6.1.1- Create a <code>packages/button</code> folder in the root directory</summary>
+>>>>>
 >>>>>> ```  
 >>>>>> mkdir packages/button
->>>>>> ```  
->>>>> 6.1.2- Switch into the `packages/button` folder  
->>>>>> ```
+>>>>>> ``` 
+>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.2- Switch into the <code>packages/button</code> folder
+>>>>>  
+>>>>>> ``` 
 >>>>>> cd packages/button
->>>>>> ```  
->>>>> 6.1.3- Add a `package.json` file  
+>>>>>> ``` 
+>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.3- Add a <code>package.json</code> file
+>>>>>
 >>>>>> ```  
 >>>>>> npm init
->>>>>> ```  
->>>>> 6.1.4- Fill out the `package.json` file
->>>>>> ```
+>>>>>> ``` 
+>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.4- Fill out the <code>package.json</code> file
+>>>>>
+>>>>>> ``` 
 >>>>>> {
 >>>>>>    "name": "@monorepo-starter/button",  
 >>>>>>    "version": "1.0.0",  
 >>>>>>    "description": "A very simple React button within a monorepo"  
 >>>>>> }
->>>>>> ```  
->>>>> 6.1.5- Add react as a dependency  
+>>>>>> ``` 
+>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.5- Add react as a dependency</summary>
+>>>>> 
 >>>>>> ```  
 >>>>>> yarn add react  
->>>>>> ```  
+>>>>>> ``` 
 >>>>>
+>>>>> </details>
 >>>>
 >>>> </details>
 >>>
