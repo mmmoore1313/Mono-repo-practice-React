@@ -58,7 +58,7 @@
 >>>  <summary>4. Set up your packages</summary>
 >>>
 >>>> 4.1- Add to your `package.json`:  
->>>>>`"workspaces": ["packages/*", "apps/*", "services/*"]`  
+>>>>> `"workspaces": ["packages/*", "apps/*", "services/*"]`  
 >>>> 4.2- `package.json` example:  
 >>>>> ```
 >>>>> {
