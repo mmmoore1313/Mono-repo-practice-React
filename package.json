@@ -1,0 +1,26 @@
+{
+  "name": "monorepoguide-practice-react",
+  "version": "1.0.0",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "services/*"
+  ],
+  "description": "This is a practice mono-repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmoore1313/Mono-repo-practice-React.git"
+  },
+  "author": "Matt Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmmoore1313/Mono-repo-practice-React/issues"
+  },
+  "homepage": "https://github.com/mmmoore1313/Mono-repo-practice-React#readme"
+}
