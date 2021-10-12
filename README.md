@@ -42,7 +42,7 @@
 >>>
 >>> </details>
 >>> <details>
->>>  <summary>3. Create a <code>package.json</code> file</summary>
+>>>  <summary>3. Create a <code>package.json</code> file to your root directory</summary>
 >>>
 >>>> 3.1- Run `npm init`  
 >>>> 3.2- Add the following:  
