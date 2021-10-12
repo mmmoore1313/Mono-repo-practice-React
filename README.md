@@ -143,9 +143,64 @@
 >>>>>> ``` 
 >>>>>
 >>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.6- Return to the root directory</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> cd ../..
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.7- Create a <code>src</code> folder in your root directory</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> mkdir src
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.1.8- Create a <code>Button</code> component to render</summary>
+>>>>>
+>>>>>> <details>
+>>>>>>  <summary>6.1.8.1- Switch to the <code>src</code> directory</summary>
+>>>>>>
+>>>>>>> `cd src`
+>>>>>> </details>
+>>>>>> <details>
+>>>>>>  <summary>6.1.8.2- Create the <code>index.js</code></summary>
+>>>>>>
+>>>>>>> `touch index.js`
+>>>>>> </details>
+>>>>>> <details>
+>>>>>>  <summary>Fill out the <code>index.js</code> file</summary>
+>>>>>>
+>>>>>>> ``` 
+>>>>>>> import React from "react";
+>>>>>>> const Button = ({ onClick, children, isSelected }) => (
+>>>>>>>   <button
+>>>>>>>     style={{
+>>>>>>>       border: 0,
+>>>>>>>       backgroundColor: isSelected ? "rebeccapurple" : "hotpink",
+>>>>>>>       color: isSelected ? "white" : "black",
+>>>>>>>       padding: "12px 24px",
+>>>>>>>       margin: "12px",
+>>>>>>>       borderRadius: "3px"
+>>>>>>>     }}
+>>>>>>>     onClick={onClick}
+>>>>>>>   >
+>>>>>>>     {children}
+>>>>>>>   </button>
+>>>>>>> );
+>>>>>>> export default Button;
+>>>>>>> ``` 
+>>>>>> </details>
 >>>>
 >>>> </details>
->>>
+>>>> <details>
+>>>>  <summary>6.2- Setting up the build process</summary>
+>>>>
+>>>>>
+>>>>
+>>>> </details>
 >>> </details>
 
 >>
