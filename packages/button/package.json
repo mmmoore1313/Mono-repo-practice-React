@@ -1,0 +1,5 @@
+{
+  "name": "@monorepo-starter/button",  
+  "version": "1.0.0",  
+  "description": "A very simple React button within a monorepo"  
+}
