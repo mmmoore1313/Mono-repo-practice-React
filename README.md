@@ -116,7 +116,7 @@
 >>>>>
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>6.1.3- Add a <code>package.json</code> file
+>>>>>  <summary>6.1.3- Add a <code>package.json</code> file</summary>
 >>>>>
 >>>>>> ```  
 >>>>>> npm init
@@ -124,7 +124,7 @@
 >>>>>
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>6.1.4- Fill out the <code>package.json</code> file
+>>>>>  <summary>6.1.4- Fill out the <code>package.json</code> file</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> {
