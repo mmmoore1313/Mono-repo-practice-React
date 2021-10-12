@@ -202,7 +202,6 @@
 >>>>
 >>>> </details>
 >>> </details>
-
 >>
 >> ###### [(Return to top)](https://github.com/mmmoore1313/Mono-repo-practice-React#mono-repo-practice-react)
 >>
