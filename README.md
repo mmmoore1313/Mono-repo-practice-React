@@ -204,14 +204,14 @@
 >>>>  <summary>6.2- Setting up the build process</summary>
 >>>>
 >>>>> <details>
->>>>>  <summary>Return to root level</summary>
+>>>>>  <summary>6.2.1- Return to root level</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> cd ../..
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary> Run:</summary>
+>>>>>  <summary>6.2.2- Run:</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> yarn add @preconstruct/cli -W
@@ -219,12 +219,12 @@
 >>>>>
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Answer the questions</summary>
+>>>>>  <summary>6.2.3- Answer the questions</summary>
 >>>>>
 >>>>>>
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Add the following to your root <code>package.json</code>
+>>>>>  <summary>6.2.4- Add the following to your root <code>package.json</code>
 >>>>>
 >>>>>> ``` 
 >>>>>> "scripts": {
