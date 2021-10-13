@@ -296,21 +296,21 @@
 >>>>>> module.exports = withPreconstruct()
 >>>>>> ``` 
 >>>>> </details>
->>>>>  <summary> Install the button package to the <code>package.json</code>:</summary>
+>>>>>  <summary>6.3.8- Install the button package to the <code>package.json</code>:</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> "@monorepo-starter/button": "1.0.0",
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary> Switch to the project root and run <code>yarn</code></summary>
+>>>>>  <summary>6.3.9- Switch to the project root and run <code>yarn</code></summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> yarn
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary> Create a <code>pages/index.js</code> file with the following:</summary>
+>>>>>  <summary>6.3.10- Create a <code>pages/index.js</code> file with the following:</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> import React from "react";
@@ -328,7 +328,7 @@
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary> Run <code>yarn dev</code> and then visit <code>http://localhost:3000</code></summary>
+>>>>>  <summary>6.3.11- Run <code>yarn dev</code> and then visit <code>http://localhost:3000</code></summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> yarn dev
