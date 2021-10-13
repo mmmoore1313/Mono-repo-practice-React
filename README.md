@@ -285,7 +285,7 @@
 >>>>>  <summary>6.3.6- Create a <code>next.config.js</code> file</summary>
 >>>>>
 >>>>>> ``` 
->>>>>> touch next.config.js
+>>>>>> touch apps/next-app/next.config.js
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
