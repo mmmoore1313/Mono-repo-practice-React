@@ -281,7 +281,60 @@
 >>>>>> },
 >>>>>> ``` 
 >>>>> </details>
-
+>>>>> <details>
+>>>>>  <summary>6.3.6- Create a <code>next.config.js</code> file</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> touch next.config.js
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>6.3.7- Add the following:</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> const withPreconstruct = require("@preconstruct/next")
+>>>>>> module.exports = withPreconstruct()
+>>>>>> ``` 
+>>>>> </details>
+>>>>>  <summary> Install the button package to the <code>package.json</code>:</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> "@monorepo-starter/button": "1.0.0",
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary> Switch to the project root and run <code>yarn</code></summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> yarn
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary> Create a <code>pages/index.js</code> file with the following:</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> import React from "react";
+>>>>>> import Button from "@monorepo-starter/button";
+>>>>>> const Index = () => {
+>>>>>>   return (
+>>>>>>     <div>
+>>>>>>       <Button isSelected onClick={() => alert("Hello!")}>
+>>>>>>         Hello World!
+>>>>>>       </Button>
+>>>>>>     </div>
+>>>>>>   );
+>>>>>> };
+>>>>>> export default Index;
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary> Run <code>yarn dev</code> and then visit <code>http://localhost:3000</code></summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> yarn dev
+>>>>>> ``` 
+>>>>> </details>
+>>>> </details>
 >>> </details>
 >>
 >> ###### [(Return to top)](https://github.com/mmmoore1313/Mono-repo-practice-React#mono-repo-practice-react)
