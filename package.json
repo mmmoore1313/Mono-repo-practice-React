@@ -10,7 +10,8 @@
   "description": "This is a practice mono-repo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "preconstruct dev",
+    "build": "preconstruct build"
   },
   "repository": {
     "type": "git",
@@ -35,9 +36,5 @@
       "apps/*",
       "services/*"
     ]
-  },
-  "scripts": {
-    "postinstall": "preconstruct dev",
-    "build": "preconstruct build"
   }
 }
