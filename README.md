@@ -296,6 +296,7 @@
 >>>>>> module.exports = withPreconstruct()
 >>>>>> ``` 
 >>>>> </details>
+>>>>> <details>
 >>>>>  <summary>6.3.8- Install the button package to the <code>package.json</code>:</summary>
 >>>>>
 >>>>>> ``` 
