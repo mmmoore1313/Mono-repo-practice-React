@@ -203,9 +203,57 @@
 >>>> <details>
 >>>>  <summary>6.2- Setting up the build process</summary>
 >>>>
+>>>>> <details>
+>>>>>  <summary>Return to root level</summary>
 >>>>>
+>>>>>> ``` 
+>>>>>> cd ../..
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary> Run:</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> yarn add @preconstruct/cli -W
+>>>>>> yarn preconstruct init
+>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Answer the questions</summary>
+>>>>>
+>>>>>>
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Add the following to your root <code>package.json</code>
+>>>>>
+>>>>>> ``` 
+>>>>>> "scripts": {
+>>>>>> "postinstall": "preconstruct dev",
+>>>>>> "build": "preconstruct build"
+>>>>>> },
+>>>>>> ``` 
+>>>>> </details>
 >>>>
 >>>> </details>
+>>>> <details>
+>>>>  <summary>6.3- Adding <code>@monorepo-starter/next-app</code></summary>
+>>>>
+>>>>> <details> 
+>>>>>  <summary>6.3.1- Create an <code>apps</code> folder in the root directory</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> mkdir apps
+>>>>>> mkdir apps/next-app
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Create a <code>package.json</code> within <code>apps/next-app</code></summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> touch apps/next-app
+>>>>>> ``` 
+>>>>> </details>
+
 >>> </details>
 >>
 >> ###### [(Return to top)](https://github.com/mmmoore1313/Mono-repo-practice-React#mono-repo-practice-react)
