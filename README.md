@@ -250,7 +250,35 @@
 >>>>>  <summary>Create a <code>package.json</code> within <code>apps/next-app</code></summary>
 >>>>>
 >>>>>> ``` 
->>>>>> touch apps/next-app
+>>>>>> touch apps/next-app/package.json
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Fill out <code>apps/next-app/package.json</code></summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> {
+>>>>>> "name": "@monorepo-starter/next-app",
+>>>>>> "version": "1.0.0"
+>>>>>> }
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Install Next.js</summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> yarn add react react-dom next @preconstruct/next
+>>>>>> ``` 
+>>>>> </details>
+>>>>> <details>
+>>>>>  <summary>Add the <code>"scripts"</code> to the <code>next-app/package.json</code></summary>
+>>>>>
+>>>>>> ``` 
+>>>>>> "scripts": {
+>>>>>> "dev": "next",
+>>>>>> "build": "next build",
+>>>>>> "start": "next start"
+>>>>>> },
 >>>>>> ``` 
 >>>>> </details>
 
