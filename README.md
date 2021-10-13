@@ -297,7 +297,7 @@
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>6.3.8- Install the button package to the <code>package.json</code>:</summary>
+>>>>>  <summary>6.3.8- Install the button package to the <code>next-app/package.json</code>:</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> "@monorepo-starter/button": "1.0.0",
