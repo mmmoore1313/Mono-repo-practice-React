@@ -1,4 +1,9 @@
 {
-"name": "@monorepo-starter/next-app",
-"version": "1.0.0"
+  "name": "@monorepo-starter/next-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
 }
