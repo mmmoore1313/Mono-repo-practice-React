@@ -6,4 +6,5 @@
     "build": "next build",
     "start": "next start"
   },
+  "@monorepo-starter/button": "1.0.0"
 }

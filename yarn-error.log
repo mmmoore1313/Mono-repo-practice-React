@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/matthewmoore/.nvm/versions/node/v16.5.0/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js add react react-dom next @preconstruct/next
+  /Users/matthewmoore/.nvm/versions/node/v16.5.0/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js
 
 PATH: 
   /usr/local/sbin:/Users/matthewmoore/.nvm/versions/node/v16.5.0/bin:/usr/loca/sbin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/matthewmoore/.rvm/gems/ruby-2.6.3/bin:/Users/matthewmoore/.rvm/gems/ruby-2.6.3@global/bin:/Users/matthewmoore/.rvm/rubies/ruby-2.6.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/matthewmoore/.platformio/penv/bin:/Users/matthewmoore/.platformio/penv:/Users/matthewmoore/.platformio/python3/bin:/Users/matthewmoore/.rvm/bin:/Users/matthewmoore/.rvm/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/matthewmoore/Documents/Work/personalsite/Profolio/1Tutorials/Followed/React/MonorepoGuide-practice-React/package.json: Unexpected token } in JSON at position 1054
+  SyntaxError: /Users/matthewmoore/Documents/Work/personalsite/Profolio/1Tutorials/Followed/React/MonorepoGuide-practice-React/apps/next-app/package.json: Unexpected token } in JSON at position 195
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.22.11/libexec/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -63,7 +63,7 @@ npm manifest:
     "scripts": {
       "postinstall": "preconstruct dev",
       "build": "preconstruct build"
-    },
+    }
   }
 
 yarn manifest: 

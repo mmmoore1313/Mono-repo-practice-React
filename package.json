@@ -39,5 +39,5 @@
   "scripts": {
     "postinstall": "preconstruct dev",
     "build": "preconstruct build"
-  },
+  }
 }
