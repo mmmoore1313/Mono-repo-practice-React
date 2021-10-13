@@ -247,14 +247,14 @@
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Create a <code>package.json</code> within <code>apps/next-app</code></summary>
+>>>>>  <summary>6.3.2- Create a <code>package.json</code> within <code>apps/next-app</code></summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> touch apps/next-app/package.json
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Fill out <code>apps/next-app/package.json</code></summary>
+>>>>>  <summary>6.3.3- Fill out <code>apps/next-app/package.json</code></summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> {
@@ -264,14 +264,14 @@
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Install Next.js</summary>
+>>>>>  <summary>6.3.4- Install Next.js</summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> yarn add react react-dom next @preconstruct/next
 >>>>>> ``` 
 >>>>> </details>
 >>>>> <details>
->>>>>  <summary>Add the <code>"scripts"</code> to the <code>next-app/package.json</code></summary>
+>>>>>  <summary>6.3.5- Add the <code>"scripts"</code> to the <code>next-app/package.json</code></summary>
 >>>>>
 >>>>>> ``` 
 >>>>>> "scripts": {
